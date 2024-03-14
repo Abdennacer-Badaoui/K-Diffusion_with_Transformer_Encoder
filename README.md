@@ -1,11 +1,11 @@
 # Transformer_Econder_for_Noise_Prediction
-On this notebook, we investigate the use of transformer encoders for predicting noise added to a 1-dimensional vector. The goal is to train a model that can effectively capture the underlying noise patterns and accurately predict the noise value for each element in the sequence.
+On this notebook, we investigate the use of transformer encoders for predicting noise added to a vector or matrix. The goal is to train a model that can effectively capture the underlying noise patterns and accurately predict the noise value for each element in the sequence.
 
 ## Key Aspects:
-- **Input**: A 1D vector representing your data. 
+- **Input**: A vector representing your data. 
 - **Positional Encoding**: This injects information about the relative or absolute position of each element in the sequence, crucial for transformers that lack recurrent connections. 
 - **Transformer Encoder**: The core component that learns the noise patterns and relationships between elements. 
-- **Output**: Predicted noise values for each element in the original vector, with the same size as the input (1D vector) 
+- **Output**: Predicted noise values for each element in the original vector, with the same size as the input  
 
     
 
