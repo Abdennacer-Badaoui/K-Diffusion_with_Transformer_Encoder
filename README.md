@@ -13,7 +13,7 @@ In the field of machine learning, k-diffusion refers to a research paper titled 
 ![teaser-1920x640](https://github.com/Abdennacer-Badaoui/K-Diffusion_with_Transformer_Encoder/assets/106801897/ae88f626-f6cc-42e9-b867-93e330beade8)
 
 
-This implementation was inspired by the original K-diffusion implementation. While the original implementation uses K-diffusion on images with U-Net architectures, I apply it to vectors using a Transformer encoder as the core model.\
+This implementation was inspired by the original K-diffusion implementation. While the original implementation uses K-diffusion on images with U-Net architectures, I apply it to vectors using a Transformer encoder as the core model.
 
 Original Implementation: https://github.com/NVlabs/edm \
 EDM paper: https://arxiv.org/pdf/2306.00914.pdf
