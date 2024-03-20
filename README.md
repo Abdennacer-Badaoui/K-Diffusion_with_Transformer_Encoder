@@ -7,9 +7,11 @@ On this notebook, we investigate the use of transformer encoders for predicting 
 ## K-Diffusion:
 
 Diffusion models work by gradually adding noise to an image in a controlled way. Imagine starting with a clean image and progressively corrupting it with noise until it becomes unrecognizable. The model then learns to reverse this process, taking the noisy image and iteratively denoising it to recover the original clean image. During training, the model sees both the noisy and clean versions of the image and learns the transformations needed for denoising.\
-In the field of machine learning, k-diffusion refers to a research paper titled "Elucidating the Design Space of Diffusion-Based Generative Models" by Tero Karras et al. This paper explores ways to improve diffusion models, a type of generative model that can create new data by gradually adding noise to an image (for example, could be anything else) and then reversing the process to create a clean image. K-diffusion allows for dynamically adjusting the step size during the denoising process. This can be beneficial for complex data where different areas might require varying levels of denoising effort.\
+In the field of machine learning, k-diffusion refers to a research paper titled "Elucidating the Design Space of Diffusion-Based Generative Models" by Tero Karras et al. This paper explores ways to improve diffusion models, a type of generative model that can create new data by gradually adding noise to an image (for example, could be anything else) and then reversing the process to create a clean image. K-diffusion allows for dynamically adjusting the step size during the denoising process. This can be beneficial for complex data where different areas might require varying levels of denoising effort.
+
 
 ![teaser-1920x640](https://github.com/Abdennacer-Badaoui/K-Diffusion_with_Transformer_Encoder/assets/106801897/ae88f626-f6cc-42e9-b867-93e330beade8)
+
 
 This implementation was inspired by the original K-diffusion implementation. While the original implementation uses K-diffusion on images with U-Net architectures, I apply it to vectors using a Transformer encoder as the core model.\
 
