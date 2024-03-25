@@ -1,4 +1,4 @@
-# K-diffusion with a TransformerEncoder
+# K-diffusion with a TransformerEncoder (Ongoing)
 
 ## Introduction:
 
